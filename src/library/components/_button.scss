@@ -1,5 +1,15 @@
 .test-button {
 	&--component {
-		
+		display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: $dark-gray;
+    font-weight: bold;
+    cursor: pointer;
+
+    a {
+      color: $white;
+      text-decoration: none;
+    }
 	}
 }

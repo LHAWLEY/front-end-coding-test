@@ -9,7 +9,7 @@ default--band adds basic top & bottom padding, as well as a default white backgr
     //@include clearfix;
     padding-top: $band-padding;
     padding-bottom: $band-padding;
-    background: #fff; // default color
+    background: $white;
 }
 
 /*doc
@@ -44,7 +44,7 @@ category: Extends - block
 default--card adds basic padding, as well as a default gray background.
 */
 %default--card {
-    background: #f0f0f0; // default color
+    background: $light-gray;
     .flexbox & {
         // cards are flex to make sure they flexed items inside of them can be 100% height
         display: flex;

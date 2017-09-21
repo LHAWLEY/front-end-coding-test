@@ -1,3 +1,5 @@
-{% if href and text %}
-	<div class="test-button--component"><a{% if href %} href="{{ href }}"{% endif %}{% if title %} title="{{ title }}"{% endif %}>{{ text }}</div></a>
-{% endif %}
+<div class="test-button--component">
+  {% if href and text %}
+    <a href="{{ href }}">{{ text }}</a>
+  {% endif %}
+</div>

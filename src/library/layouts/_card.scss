@@ -2,6 +2,9 @@
     &--layout {
         @extend %default--card;
 	}
+    &--layout:nth-child(even) {
+        display: none;
+    }
     &-header {
 		//background: #252527;
         padding: $card-spacing $card-padding;

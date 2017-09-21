@@ -1,18 +1,14 @@
 %default-title {
-	font-family: $base-font-family;
 	text-transform: uppercase;
-	margin: 0;
 }
 
 %default-headline {
-	font-family: $base-font-family;
 	font-size: 2em;
-	margin: 0;
+  color: $white;
 }
 
 %default-copy {
 	p {
-		font-family: $base-font-family;
-		margin: 0;
-	}
+    color: $dark-gray;
+  }
 }

@@ -2,4 +2,10 @@
 	&--component {
 		@extend %default-copy;
 	}
+  &--component a {
+    color: $link-blue;
+  }
+  &--component small {
+    color: $white;
+  }
 }
